@@ -20,6 +20,9 @@ El script opera en segundo plano (modo fantasma).
 2. Cuando realizas un recorte (ej. `Win + Shift + S`), el script detecta el nuevo archivo.
 3. Lee tus instrucciones desde `contexto.txt` y envía la imagen a Gemini mediante la API oficial `google-genai`.
 4. Muestra la respuesta en una ventana de `Tkinter` ultra-discreta que puedes mover o esconder con el teclado.
+5. Con Ctrl+M lo puedes mover de izquierda a derecha o biceversa
+6. [Esc] Lo escondes
+7. Ctrl+Alt+V Lo vuelves a mostrar
 
 ---
 
@@ -28,11 +31,11 @@ El script opera en segundo plano (modo fantasma).
 ### 1. Clonar el repositorio e instalar dependencias
 Asegúrate de tener Python 3.x instalado. Abre tu terminal y ejecuta:
 ```bash
-git clone [https://github.com/tu-usuario/tu-repositorio.git](https://github.com/tu-usuario/tu-repositorio.git)
-cd tu-repositorio
+git clone [https://github.com/DinDevJ/IAQuizTool.git](https://github.com/DinDevJ/IAQuizTool.git)
+cd IAQuizTool
 pip install -r requirements.txt
 
-
+```
 ### ⚠️ Importante: Estructura de archivos post-compilación
 
 Una vez generado tu programa (lo encontrarás dentro de la carpeta `dist`), es **estrictamente necesario** que lo saques de ahí y lo coloques en una nueva carpeta junto con tus archivos de configuración. 

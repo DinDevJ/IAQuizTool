@@ -1,6 +1,7 @@
 #ARCHIVOS DE ENTORNO (API KEYS)
 .env
-.txt
+contexto.txt
+.spec
 
 dist
 build

@@ -2,6 +2,6 @@
 .env
 contexto.txt
 .spec
-
+config.json
 dist
 build

@@ -3,5 +3,6 @@
 contexto.txt
 .spec
 .gitignore
+config.json
 dist
 build

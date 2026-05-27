@@ -16,7 +16,7 @@ client = genai.Client(api_key=os.getenv('GEMINI_API_KEY'))
 
 NOMBRE_CONTEXTO = "contexto.txt"
 MODELO = 'gemini-3-flash-preview'
-CARPETA_CAPTURAS = r"C:\Users\julio\OneDrive\Pictures\Screenshots"
+CARPETA_CAPTURAS = r"C:\Users\Luis\OneDrive\Pictures\Screenshots"
 
 # --- VARIABLES GLOBALES ---
 root = None

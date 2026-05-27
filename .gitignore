@@ -1,7 +1,7 @@
-#ARCHIVOS DE ENTORNO (API KEYS)
+#ARCHIVOS DE ENTORNO (API KEYS y demas)
 .env
 contexto.txt
 .spec
-
+.gitignore
 dist
 build
